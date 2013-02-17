@@ -19,9 +19,9 @@
     
     <preference name="phonegap-version" value="2.3.0" />
     
-	<icon src="res/drawable-mdpi/ic_launcher.png" gap:platform="android" gap:density="ldpi" />
-<icon src="res/drawable-mdpi/ic_launcher.png" gap:platform="android" gap:density="mdpi" />
-<icon src="res/drawable-hdpi/ic_launcher.png" gap:platform="android" gap:density="hdpi" />
-<icon src="res/drawable-xhdpi/ic_launcher.png" gap:platform="android" gap:density="xhdpi" />
+	<icon src="icons/drawable-mdpi/ic_launcher.png" gap:platform="android" gap:density="ldpi" />
+<icon src="icons/drawable-mdpi/ic_launcher.png" gap:platform="android" gap:density="mdpi" />
+<icon src="icons/drawable-hdpi/ic_launcher.png" gap:platform="android" gap:density="hdpi" />
+<icon src="icons/drawable-xhdpi/ic_launcher.png" gap:platform="android" gap:density="xhdpi" />
 
 </widget>
