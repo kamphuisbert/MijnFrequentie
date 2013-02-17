@@ -39,6 +39,16 @@
     
     function vibrate() {
         navigator.notification.vibrate(2000);
+        navigator.notification.alert(
+                'You are the winner!',  // message
+                alertDismissed,         // callback
+                'Game Over',            // title
+                'Done'                  // buttonName
+            );
+    }
+    
+    function alertDismissed() {
+        // do something
     }
 
     </script>
