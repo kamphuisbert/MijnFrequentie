@@ -14,6 +14,8 @@
     //
     function onDeviceReady() {
         navigator.geolocation.getCurrentPosition(onSuccess, onError);
+        var element = document.getElementById('geolocation');
+        element.innerHTML = 'goed';
     }
 
     // onSuccess Geolocation
