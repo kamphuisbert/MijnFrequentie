@@ -24,9 +24,7 @@
 <icon src="icons/drawable-hdpi/ic_launcher.png" gap:platform="android" gap:density="hdpi" />
 <icon src="icons/drawable-xhdpi/ic_launcher.png" gap:platform="android" gap:density="xhdpi" />
 
-<plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
-<plugin name="Notification" value="org.apache.cordova.Notification"/>
-
 <feature name="http://api.phonegap.com/1.0/notification"/>
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
 
 </widget>
