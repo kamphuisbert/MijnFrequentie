@@ -36,10 +36,15 @@
         alert('code: '    + error.code    + '\n' +
                 'message: ' + error.message + '\n');
     }
+    
+    function vibrate() {
+        navigator.notification.vibrate(2000);
+    }
 
     </script>
   </head>
   <body>
     <p id="geolocation">Finding geolocation...</p>
+    <p><a href="#" onclick="vibrate(); return false;">Vibrate</a></p>
   </body>
 </html>
