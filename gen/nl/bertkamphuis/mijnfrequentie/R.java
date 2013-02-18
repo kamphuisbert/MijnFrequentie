@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package nl.bertkamphuis.mijnfm;
+package nl.bertkamphuis.mijnfrequentie;
 
 public final class R {
     public static final class attr {

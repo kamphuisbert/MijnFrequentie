@@ -3,7 +3,7 @@ package nl.bertkamphuis.mijnfrequentie;
 import android.os.Bundle;
 //import android.app.Activity;
 import android.view.Menu;
-import nl.bertkamphuis.mijnfm.R;
+import nl.bertkamphuis.mijnfrequentie.R;
 import org.apache.cordova.DroidGap;
 
 public class MainActivity extends DroidGap {
