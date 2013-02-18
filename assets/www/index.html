@@ -4,6 +4,7 @@
     <title>Device Properties Example</title>
 
     <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+    <!--  <script type="text/javascript" charset="utf-8" src="cordova-2.4.0.js"></script>-->
     <script type="text/javascript" charset="utf-8">
 
     // Wait for Cordova to load
@@ -14,8 +15,7 @@
     //
     function onDeviceReady() {
         navigator.geolocation.getCurrentPosition(onSuccess, onError);
-        var element = document.getElementById('geolocation');
-        element.innerHTML = 'goed';
+        document.addEventListener("menubutton", onMenuKeyDown, false);
     }
 
     // onSuccess Geolocation
